@@ -1,0 +1,557 @@
+"DOTAAbilities"
+{
+//=================================================================================================================
+	"item_trident_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_trident"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"1"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "0"
+		"ItemSellable"                  "0"
+		"ItemDroppable"                 "1"
+		
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trident_primary_stat"			"600"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trident_all_stat"			"400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"agi_trident_all"			"20"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str_trident_all"			"20"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"int_trident_all"			"20"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trident_cast_range_bonus"			"150"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trident_base_damage"			"50"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trident_magic_resistance"			"50"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trident_status_resistance"			"50"
+			}
+				
+		}
+	}
+
+	"item_recipe_trident_custom"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemCost"							"80000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_trident_custom"
+		"ItemRequirements"
+		{
+			"01"							"item_apex;item_psychic_headband;item_titan_sliver;item_pupils_gift;"
+		}
+	}
+
+
+	"item_cprinces_knife_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_princes_knife"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityCooldown"				"45.0"
+		
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"1"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "0"
+		"ItemSellable"                  "0"
+		"ItemDroppable"                 "1"
+		
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"princes_knife_cooldown"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"princes_knife_all_stat"			"300"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"princes_knife_moved_speed"			"300"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"princes_knife_armor"			"300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"princes_knife_mp_regen"			"300.0"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"princes_knife_health_regen_pct"			"5.0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				//==========================длительность менять в Lua-шке
+				"princes_knife_smoke_dur"			"300"
+			}
+
+				
+		}
+	}
+
+	"item_recipe_cprinces_knife_custom"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemCost"							"80000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_cprinces_knife_custom"
+		"ItemRequirements"
+		{
+			"01"							"item_spell_prism;item_ninja_gear;item_quickening_charm;item_arcane_ring;"
+		}
+	}
+
+
+
+"item_cvampire_fangs_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_vampire_fangs"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"1"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "0"
+		"ItemSellable"                  "0"
+		"ItemDroppable"                 "1"
+		
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_all_stat"			"500"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_armor"			"20"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_all_damage"			"20"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_magic_resistance"			"50"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_evasion"			"50"
+			}
+			
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_fiz_vampir"			"20"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cvampire_fangs_mag_vampir"			"20"
+			}	
+		}
+	}
+
+	"item_recipe_cvampire_fangs_custom"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemCost"							"80000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_cvampire_fangs_custom"
+		"ItemRequirements"
+		{
+			"01"							"item_trickster_cloak;item_paladin_sword_custom;item_black_powder_bag;item_ocean_heart;"
+		}
+	}
+
+
+"item_corb_of_destruction_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_orb_of_destruction"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"1"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "0"
+		"ItemSellable"                  "0"
+		"ItemDroppable"                 "1"
+		
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corb_all_stat"			"400"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corb_armor"			"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corb_damage_all"		"10"
+			}	
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corb_moved_speed"		"50"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corb_speed_anim_atk"	"1000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corb_speed_minus_armor"	"200"
+			}
+		}
+	}
+
+	"item_recipe_corb_of_destruction_custom"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemCost"							"80000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_corb_of_destruction_custom"
+		"ItemRequirements"
+		{
+			"01"							"item_desolator_2;item_quicksilver_amulet;item_vambrace;item_ring_of_aquila;"
+		}
+	}
+
+
+
+
+
+"item_cphoenix_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_phoenix_ash"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityCooldown"				"160.0"
+		
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"1"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "0"
+		"ItemSellable"                  "0"
+		"ItemDroppable"                 "1"
+		
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cphoenix_armor"			"400"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cphoenix_mp_regen"			"400.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cphoenix_intellect"		"1000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cphoenix_aoe"			"25"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cphoenix_gold"			"8000"
+			}
+			
+		}
+	}
+
+	"item_recipe_cphoenix_custom"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemCost"							"80000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_cphoenix_custom"
+		"ItemRequirements"
+		{
+			"01"							"item_craggy_coat;item_spy_gadget;item_essence_ring;item_philosophers_stone;"
+		}
+	}
+
+
+"item_chelm_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_helm_of_the_undying"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityCooldown"				"1.0"
+		
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"1"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemStackable"					"0"
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "0"
+		"ItemSellable"                  "0"
+		"ItemDroppable"                 "1"
+		
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"			"200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_str_damage_per_second"			"15"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_bonus_strength"			"500"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_movement_speed"			"300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_model_scale"			"20"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_armor"			"500"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_hp_regen"			"5000"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_mag_resist"			"40"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chelm_max_hp"			"40"
+			}
+		}
+	}
+
+	"item_recipe_chelm_custom"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"ItemStockTime"					"1"			  
+		"ItemStockInitial"				"0"
+		"ItemStockMax"					"1"
+		"ItemInitialStockTime"			"1800.0"
+		"ItemCost"							"80000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_chelm_custom"
+		"ItemRequirements"
+		{
+			"01"							"item_giants_ring;item_ascetic_cap;item_cloak_of_flames;item_dragon_scale;"
+		}
+	}
+
+
+"item_paladin_sword_custom"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/neutral_items_stats.lua"
+		"AbilityTextureName"			"item_paladin_sword"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemIsNeutralDrop"				"1"
+		"ItemPurchasable"				"0"
+
+		"Model"							"models/props_gameplay/neutral_box.vmdl"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_lifesteal"			"15"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_spell_lifesteal"			"15"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_amp"			"15"
+			}
+		}
+	}
+
+}

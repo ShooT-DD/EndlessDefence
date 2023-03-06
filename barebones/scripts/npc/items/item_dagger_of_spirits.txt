@@ -1,0 +1,709 @@
+"DOTAAbilities"
+{
+
+"item_dagger_of_spirits_1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_1"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+
+"item_dagger_of_spirits_2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_dagger_of_spirits_3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_dagger_of_spirits_4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_dagger_of_spirits_5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_dagger_of_spirits_6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_dagger_of_spirits_7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_dagger_of_spirits_8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/dagger_of_spirits.lua"
+			"AbilityTextureName"			"all/dagger_of_spirits_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage"				"190 380 775 1250 2500 5000 10000 20000"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"moved_speed"				"50 60 70 80 90 100 110 120"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chance"					"20"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minus_armor"				"-10"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"debuff_duration"			"8"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"800"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty_all"		    "1 2 4 6 8 10 12 15"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"armor_penalty"				"-5 -10 -15 -20 -25 -30 -40 -50"
+			}
+		}
+	}
+	
+	
+"item_recipe_dagger_of_spirits_1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"2300"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_1"
+		"ItemRequirements"
+		{
+			"01"							"item_demon_edge;item_boots;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_2"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_1;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_3"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_2;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_4"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_3;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_5"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_4;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_6"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_5;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_7"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_6;"
+		}
+	}	
+
+"item_recipe_dagger_of_spirits_8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_dagger_of_spirits_8"
+		"ItemRequirements"
+		{
+			"01"							"item_dagger_of_spirits_7;"
+		}
+	}	
+
+
+}

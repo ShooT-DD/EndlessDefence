@@ -1,0 +1,378 @@
+"DOTAAbilities"
+{
+
+//=============================================================
+"item_recipe_moon_shard_lua"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"0"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard;item_moon_shard"
+
+		}
+	}
+	
+"item_recipe_moon_shard_lua2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua2"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard_lua"
+
+		}
+	}
+	
+"item_recipe_moon_shard_lua3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua3"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard_lua2"
+
+		}
+	}	
+	
+"item_recipe_moon_shard_lua4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"20000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua4"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard_lua3"
+
+		}
+	}
+
+"item_recipe_moon_shard_lua5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"30000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua5"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard_lua4"
+
+		}
+	}
+
+"item_recipe_moon_shard_lua6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua6"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard_lua5"
+
+		}
+	}
+
+"item_recipe_moon_shard_lua7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"50000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_moon_shard_lua7"
+		"ItemRequirements"
+		{
+			"01"							"item_moon_shard_lua6"
+
+		}
+	}	
+	
+"item_moon_shard_lua"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon1"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}	
+	
+"item_moon_shard_lua2"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon2"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "2"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}
+
+"item_moon_shard_lua3"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon3"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "3"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}	
+
+"item_moon_shard_lua4"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon4"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "4"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}	
+
+"item_moon_shard_lua5"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon5"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}	
+
+"item_moon_shard_lua6"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon6"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "6"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}	
+
+"item_moon_shard_lua7"
+	{
+		"BaseClass"						"item_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "custom/moon/moon7"
+		"ScriptFile"					"items/item_moon_shard.lua"
+		
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemDroppable"					"1"
+		"ItemKillable"					"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemSellable"					"1" 
+		"ItemDisassemblable"			"0"
+
+		"ItemBaseLevel"                 "7"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_as"				"150 200 250 300 350 400 450"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aura_as_ally"			"20 40 60 80 100 120 140"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"30000"
+			}
+		}
+	}		
+
+	
+}
+

@@ -1,0 +1,357 @@
+"DOTAAbilities"
+{
+//==================================================================================================================================================================
+//==================================================================================================================================================================	
+"item_recipe_desolator_lua1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"300"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_desolator_lua1"
+		"ItemRequirements"
+		{
+			"01"							"item_mithril_hammer;item_mithril_hammer"
+		}
+	}
+
+"item_recipe_desolator_lua2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_desolator_lua2"
+		"ItemRequirements"
+		{
+			"01"							"item_desolator_lua1;"
+		}
+	}
+	
+"item_recipe_desolator_lua3"
+	{
+		"AbilityTextureName" 				"recipe"					
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_desolator_lua3"
+		"ItemRequirements"
+		{
+			"01"							"item_desolator_lua2;"
+		}
+	}
+
+"item_recipe_desolator_lua4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    	 	"item_datadriven"
+
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_desolator_lua4"
+		"ItemRequirements"
+		{
+			"01"							"item_desolator_lua3;"
+		}
+	}
+
+"item_recipe_desolator_lua5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+			
+		"ItemCost"						"10000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_desolator_lua5"
+		"ItemRequirements"
+		{
+			"01"						"item_desolator_lua4;"
+		}
+	}
+
+"item_recipe_desolator_lua6"
+	{
+		"AbilityTextureName" 				"recipe"		
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+		
+		"ItemCost"						"10000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_desolator_lua6"
+		"ItemRequirements"
+		{
+			"01"						"item_desolator_lua5;"
+		}
+	}	
+	
+"item_recipe_desolator_lua7"
+	{
+		"AbilityTextureName" 				"recipe"		
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+		
+		"ItemCost"						"25000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_desolator_lua7"
+		"ItemRequirements"
+		{
+			"01"						"item_desolator_lua6;"
+		}
+	}	
+
+"item_recipe_desolator_lua8"
+	{
+		"AbilityTextureName" 				"recipe"		
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+		
+		"ItemCost"						"40000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_desolator_lua8"
+		"ItemRequirements"
+		{
+			"01"						"item_desolator_lua7;"
+		}
+	}	
+
+"item_desolator_lua1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"1"
+		"AbilityTextureName"	        "item_desolator"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+	
+"item_desolator_lua2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"2"
+		"AbilityTextureName"	        "all/desolator_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+
+"item_desolator_lua3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"3"
+		"AbilityTextureName"	        "all/desolator_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+
+"item_desolator_lua4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"4"
+		"AbilityTextureName"	        "all/desolator_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+
+"item_desolator_lua5"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"5"
+		"AbilityTextureName"	        "all/desolator_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+
+"item_desolator_lua6"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"6"
+		"AbilityTextureName"	        "all/desolator_6"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+
+"item_desolator_lua7"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"7"
+		"AbilityTextureName"	        "all/desolator_7"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+	
+"item_desolator_lua8"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_desolator.lua"
+		"ItemBaseLevel"					"8"
+		"AbilityTextureName"	        "all/desolator_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilitySpecial"
+		{
+            "01"
+             {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 150 500 1500 3000 6000 10000 20000"
+             }
+            "02"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_armor"      "10 15 20 25 30 35 40 45"
+             }
+            "03"
+             {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "5.0"
+             }
+		}
+	}
+	
+}	

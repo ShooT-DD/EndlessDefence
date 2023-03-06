@@ -1,0 +1,465 @@
+"DOTAAbilities"
+{
+
+	"item_recipe_corrupted_desolator"
+	{
+		"AbilityTextureName" 				"recipe"
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+
+		"ItemCost"							"80000"
+		"ItemShopTags"						"artifacts"
+
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_corrupted_desolator"
+		"ItemRequirements"
+		{
+			"01"							"item_desolator_lua1;"
+		}
+	}
+
+	"item_corrupted_desolator"
+	{
+		"BaseClass"						"item_desolator"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "quest_line_sword"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+		
+		"ItemBaseLevel"					"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"-500"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corruption_armor"		"100"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"corruption_duration"	"5.0"
+			}
+		}
+	}
+	
+	
+	"item_recipe_corrupted_desolator2"
+	{
+		"AbilityTextureName" 				"recipe"
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+
+		"ItemCost"							"80000"
+		"ItemShopTags"						"artifacts"
+
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_corrupted_desolator2"
+		"ItemRequirements"
+		{
+			"01"							"item_corrupted_desolator;item_corrupted_desolator"
+		}
+	}
+
+	"item_corrupted_desolator2"
+	{
+		"BaseClass"						"item_desolator"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "sf"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+		
+		"ItemBaseLevel"					"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"-666"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corruption_armor"		"666"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"corruption_duration"	"66.0"
+			}
+		}
+	}
+	
+	"item_recipe_corrupted_desolator3"
+	{
+		"AbilityTextureName" 				"recipe"
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+
+		"ItemCost"							"80000"
+		"ItemShopTags"						"artifacts"
+
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_corrupted_desolator3"
+		"ItemRequirements"
+		{
+			"01"							"item_corrupted_desolator2;item_corrupted_dragon_lance;item_corrupred_orb2"
+		}
+	}
+
+	"item_corrupted_desolator3"
+	{
+		"BaseClass"						"item_desolator"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"	        "all/desolator_4"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+		
+		"ItemBaseLevel"					"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"-6666"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"corruption_armor"		"6666"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"corruption_duration"	"228.0"
+			}
+		}
+	}
+	
+	
+	
+	"item_recipe_corrupted_dragon_lance"
+	{
+		"AbilityTextureName" 				"recipe"
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+
+		"ItemCost"							"80000"
+		"ItemShopTags"						"artifacts"
+
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_corrupted_dragon_lance"
+		"ItemRequirements"
+		{
+			"01"							"item_dragon_lance;"
+		}
+	}
+	
+	//=================================================================================================================
+	// Dragon Lance
+	//=================================================================================================================
+	"item_corrupted_dragon_lance"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_dragon_lance"    // unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1900"
+		"ItemShopTags"					"damage"
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"dragon lance"
+		
+		"ShouldBeSuggested"				"1"
+		
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"			"2000"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"2000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_attack_range"		"1000"
+			}
+		}
+	}
+	
+	
+	"item_corrupred_orb"
+	{
+		"BaseClass"						"item_ultimate_orb"
+		"AbilityTextureName"	        "soul/dust"
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"50000"
+		"ItemShopTags"					"agi;int;str"
+		"ItemQuality"					"secret_shop"
+		"ItemAliases"					"ultimate orb"
+		"SecretShop"					"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"500"
+			}
+		}
+	}
+	
+	"item_recipe_corrupred_orb2"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"recipe"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_corrupred_orb2"
+		"ItemRequirements"
+		{
+			"01"						"item_corrupred_orb;item_corrupred_orb"
+		}
+	}
+	
+	"item_corrupred_orb2"
+	{
+		"BaseClass"						"item_ultimate_orb"
+		"AbilityTextureName"	        "soul/mines"
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"50000"
+		"ItemShopTags"					"agi;int;str"
+		"ItemQuality"					"secret_shop"
+		"ItemAliases"					"ultimate orb"
+		"SecretShop"					"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"1000"
+			}
+		}
+	}
+	
+	
+	"item_recipe_corrupred_orb3"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"recipe"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_corrupred_orb3"
+		"ItemRequirements"
+		{
+			"01"						"item_corrupred_orb2;item_corrupred_orb2"
+		}
+	}
+	
+	"item_corrupred_orb3"
+	{
+		"BaseClass"						"item_ultimate_orb"
+		"AbilityTextureName"	        "soul/snow"
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"50000"
+		"ItemShopTags"					"agi;int;str"
+		"ItemQuality"					"secret_shop"
+		"ItemAliases"					"ultimate orb"
+		"SecretShop"					"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"2000"
+			}
+		}
+	}
+	
+	"item_recipe_corrupred_orb4"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"recipe"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_corrupred_orb4"
+		"ItemRequirements"
+		{
+			"01"						"item_corrupred_orb3;item_corrupred_orb3"
+		}
+	}
+	
+	"item_corrupred_orb4"
+	{
+		"BaseClass"						"item_ultimate_orb"
+		"AbilityTextureName"	        "soul/swamp"
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"50000"
+		"ItemShopTags"					"agi;int;str"
+		"ItemQuality"					"secret_shop"
+		"ItemAliases"					"ultimate orb"
+		"SecretShop"					"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"4000"
+			}
+		}
+	}
+	
+	
+	"item_recipe_corrupred_orb5"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"recipe"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_corrupred_orb5"
+		"ItemRequirements"
+		{
+			"01"						"item_corrupred_orb4;item_corrupred_orb4"
+		}
+	}
+	
+	"item_corrupred_orb5"
+	{
+		"BaseClass"						"item_ultimate_orb"
+		"AbilityTextureName"	        "soul/village"
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+													// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"50000"
+		"ItemShopTags"					"agi;int;str"
+		"ItemQuality"					"secret_shop"
+		"ItemAliases"					"ultimate orb"
+		"SecretShop"					"1"
+
+		// Special	
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all_stats"		"8000"
+			}
+		}
+	}
+
+
+}

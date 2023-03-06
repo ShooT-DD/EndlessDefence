@@ -1,0 +1,629 @@
+"DOTAAbilities"
+{ 
+"item_recipe_ranged_cleave"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"2100"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave"
+		"ItemRequirements"
+		{
+			"01"							"item_dragon_lance"
+
+		}
+	}
+
+"item_ranged_cleave"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		"ItemCost"						"4500"
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	"item_recipe_ranged_cleave2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave2"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave"
+
+		}
+	}
+
+"item_ranged_cleave2"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun2"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "2"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	
+	"item_recipe_ranged_cleave3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave3"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave2"
+
+		}
+	}
+
+"item_ranged_cleave3"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun3"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "3"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	
+	"item_recipe_ranged_cleave4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave4"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave3"
+
+		}
+	}
+
+"item_ranged_cleave4"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun4"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "4"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	"item_recipe_ranged_cleave5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave5"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave4"
+
+		}
+	}
+
+"item_ranged_cleave5"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun5"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "5"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	
+	"item_recipe_ranged_cleave6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"15000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave6"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave5"
+
+		}
+	}
+
+"item_ranged_cleave6"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun6"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "6"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	"item_recipe_ranged_cleave7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave7"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave6"
+
+		}
+	}
+
+"item_ranged_cleave7"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun7"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "7"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	"item_recipe_ranged_cleave8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_ranged_cleave8"
+		"ItemRequirements"
+		{
+			"01"							"item_ranged_cleave7"
+
+		}
+	}
+
+"item_ranged_cleave8"
+	{
+		
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_ranged_cleave"
+		"AbilityTextureName"			"custom/minigun/minigun2"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		 
+		"ItemQuality"					"artifact"
+		"ItemAliases"					"cleave;bfury;shotgun"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemBaseLevel"                 "8"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_str"				"20 40 60 80 160 300 600 1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agi"				"20 40 60 80 160 300 600 1200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_dmg"				"20 40 60 80 160 300 600 1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_range"			"140 150 160 170 180 190 200 210"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"		     	"300"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"1 1 1 1 2 2 2 3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"split_shot_damage"		"100"
+			}
+		}
+	}
+	
+	}

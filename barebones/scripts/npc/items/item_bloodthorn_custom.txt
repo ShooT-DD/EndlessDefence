@@ -1,0 +1,587 @@
+"DOTAAbilities"
+{
+
+"item_bloodthorn_custom_1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_1"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"	"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+
+"item_bloodthorn_custom_2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_bloodthorn_custom_3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_bloodthorn_custom_4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_bloodthorn_custom_5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_bloodthorn_custom_6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_bloodthorn_custom_7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_bloodthorn_custom_8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/bloodthorn_custom.lua"
+			"AbilityTextureName"			"all/bloodthorn_custom_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_chance"		"5 6 7 8 10 12 15 20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_crit_multiplier"		"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"up_intellect"			"16 32 64 128 256 512 1024 2048"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mp_regen"				"3 6 12 25 50 100 200 400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_time"				"5 10 15 20 25 30 35 40"
+			}
+		}
+	}
+	
+	
+"item_recipe_bloodthorn_custom_1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"1000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_1"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya;item_lesser_crit;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_2"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_1;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_3"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_2;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_4"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_3;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_5"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_4;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_6"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_5;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_7"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_6;"
+		}
+	}	
+
+"item_recipe_bloodthorn_custom_8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodthorn_custom_8"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodthorn_custom_7;"
+		}
+	}	
+
+
+}

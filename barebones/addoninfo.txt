@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+    "maps"                         "cross_map"
+    "IsPlayable"                 "1"
+    "PenaltiesEnabled"            "0"
+    "EnablePickRules"            "0"
+    "CheckAFKPlayers"             "1"
+    
+    "cross_map"
+     {
+         "MaxPlayers" "4"
+     }
+}

@@ -1,0 +1,738 @@
+"DOTAAbilities"
+{
+
+//==================================================================================================================================================================
+//==================================================================================================================================================================
+
+"item_bfury_lua1"
+	{
+	
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"item_bfury"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"1"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+            }
+			
+		}
+	}
+	
+"item_recipe_bfury_lua1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							""	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua1"
+		"ItemRequirements"
+		{
+			"01"							"item_broadsword;item_claymore;item_pers;item_quelling_blade"
+		}
+	}
+
+"item_recipe_bfury_lua2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua2"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua1;"
+		}
+	}
+	
+
+"item_bfury_lua2"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_2"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"2"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+		}
+	}	
+	
+"item_recipe_bfury_lua3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua3"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua2;"
+		}
+	}
+	
+
+"item_bfury_lua3"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_3"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"3"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+		}
+	}
+
+	
+"item_recipe_bfury_lua4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua4"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua3;"
+		}
+	}
+	
+
+"item_bfury_lua4"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_4"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"4"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+		}
+	}	
+
+"item_recipe_bfury_lua5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua5"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua4;"
+		}
+	}
+	
+
+"item_bfury_lua5"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_5"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"5"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+		}
+	}		
+
+"item_recipe_bfury_lua6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua6"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua5;"
+		}
+	}
+	
+"item_bfury_lua6"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_6"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"6"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+		}
+	}	
+	
+"item_recipe_bfury_lua7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua7"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua6;"
+		}
+	}
+	
+"item_bfury_lua7"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_7"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"7"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+		}
+	}
+	
+"item_recipe_bfury_lua8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bfury_lua8"
+		"ItemRequirements"
+		{
+			"01"							"item_bfury_lua7;"
+		}
+	}
+	
+"item_bfury_lua8"
+	{
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
+		"BaseClass"						"item_lua"
+		"AbilityTextureName"			"all/fury_2"
+		"ScriptFile"					"items/item_bfury_lua"
+		"ItemBaseLevel"					"8"
+		
+		"AbilityCastRange"				"350"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"4.0"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		
+
+		"AbilitySpecial"
+		{
+            "01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "bonus_damage"          "55 100 200 400 800 1600 3200 6400"
+            }
+            "02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_health_regen"    "7.5 15 30 60 120 240 480 960"
+            }
+            "03"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bonus_mana_regen"      "3.25 7 15 30 60 120 240 480"
+            }
+            "04"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave"		"30 40 50 60 70 80 90 100"
+            }                   
+            "05"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_dalnost"       "400"
+            }
+			"06"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "start_damage"          "150"
+            }
+			"07"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "end_damage"            "250"
+            }
+			"08"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "corruption_duration"   "1"
+            }
+			"09"
+            {
+                "var_type"              "FIELD_INTEGER"
+
+            }
+			
+	}
+	}
+
+}	

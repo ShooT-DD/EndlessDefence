@@ -1,0 +1,738 @@
+"DOTAAbilities"
+{
+
+"item_skadi1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_1"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+
+"item_skadi2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_skadi3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_skadi4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_skadi5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_skadi6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_skadi7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_skadi8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/skadi_custom.lua"
+			"AbilityTextureName"			"all/skadix_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			"AbilityCastRange"				"300"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"45"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rdt"					"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spt"					"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"stats"					"25 50 100 200 300 400 500 600"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"MoveSpeed"				"25 26 27 28 29 30 31 32"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"AttackSpeed"			"25 26 27 28 29 30 31 32"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"TurnRate"				"30"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mnozit_urona"			"1 3 6 9 12 15 20 25"
+			}
+		}
+	}
+	
+	
+"item_recipe_skadi1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"0"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi1"
+		"ItemRequirements"
+		{
+			"01"							"item_ultimate_orb;item_ultimate_orb;item_point_booster;"
+		}
+	}	
+
+"item_recipe_skadi2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi2"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi1;"
+		}
+	}	
+
+"item_recipe_skadi3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi3"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi2;"
+		}
+	}	
+
+"item_recipe_skadi4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi4"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi3;"
+		}
+	}	
+
+"item_recipe_skadi5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi5"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi4;"
+		}
+	}	
+
+"item_recipe_skadi6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi6"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi5;"
+		}
+	}	
+
+"item_recipe_skadi7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi7"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi6;"
+		}
+	}	
+
+"item_recipe_skadi8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_skadi8"
+		"ItemRequirements"
+		{
+			"01"							"item_skadi7;"
+		}
+	}	
+
+
+}

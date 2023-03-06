@@ -1,0 +1,547 @@
+"DOTAAbilities"
+{
+
+"item_greater_crit_1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit1"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"110 120 130 150 160 170 180 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+
+"item_greater_crit_2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_greater_crit_3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_greater_crit_4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_greater_crit_5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_greater_crit_6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_greater_crit_7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_greater_crit_8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/greater_crit_custom.lua"
+			"AbilityTextureName"			"all/greater_crit2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"30"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_crit"				"225 250 275 300 325 350 375 400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_increase"			"120 130 150 160 170 180 190 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"88 176 352 704 1408 2816 5632 11264"
+			}
+		}
+	}
+	
+	
+"item_recipe_greater_crit_1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"1000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_1"
+		"ItemRequirements"
+		{
+			"01"							"item_lesser_crit;item_demon_edge;"
+		}
+	}	
+
+"item_recipe_greater_crit_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_2"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_1;"
+		}
+	}	
+
+"item_recipe_greater_crit_3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_3"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_2;"
+		}
+	}	
+
+"item_recipe_greater_crit_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_4"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_3;"
+		}
+	}	
+
+"item_recipe_greater_crit_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_5"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_4;"
+		}
+	}	
+
+"item_recipe_greater_crit_6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_6"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_5;"
+		}
+	}	
+
+"item_recipe_greater_crit_7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_7"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_6;"
+		}
+	}	
+
+"item_recipe_greater_crit_8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_greater_crit_8"
+		"ItemRequirements"
+		{
+			"01"							"item_greater_crit_7;"
+		}
+	}	
+
+
+}

@@ -1,0 +1,831 @@
+"DOTAAbilities"
+{
+//===========================================================================================================
+
+
+"item_mjollnir_custom_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"1"
+		"AbilityTextureName"	        "item_mjollnir"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+"item_mjollnir_custom_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"2"
+		"AbilityTextureName"	        "all/mjolner2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+
+"item_mjollnir_custom_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"3"
+		"AbilityTextureName"	        "all/mjolner3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+"item_mjollnir_custom_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"4"
+		"AbilityTextureName"	        "all/mjolner4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+"item_mjollnir_custom_5"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"5"
+		"AbilityTextureName"	        "all/mjolner5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+"item_mjollnir_custom_6"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"6"
+		"AbilityTextureName"	        "all/mjolner6"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+"item_mjollnir_custom_7"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"7"
+		"AbilityTextureName"	        "all/mjolner7"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+"item_mjollnir_custom_8"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_mjollnir.lua"
+		"ItemBaseLevel"					"8"
+		"AbilityTextureName"	        "all/mjolner2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ShouldBeSuggested"				"1"
+		
+		"AbilitySpecial"
+		{
+            "01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"24 50 100 200 400 800 1600 3200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"60 90 120 150 180 210 240 480"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_chance"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_strikes"		"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"static_radius"			"600"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_cooldown"		"1.0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"static_duration"		"15.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_chance"			"30"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_damage"			"500 1000 1500 3000 4500 6000 7500 10000"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_strikes"			"8"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_radius"			"650"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_delay"			"0.1"
+			}
+		}
+	}
+	
+
+"item_recipe_mjollnir_custom_1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"900"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_mjollnir_custom_1"
+		"ItemRequirements"
+		{
+			"01"							"item_maelstrom;item_hyperstone;"
+		}
+	}
+
+"item_recipe_mjollnir_custom_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_mjollnir_custom_2"
+		"ItemRequirements"
+		{
+			"01"							"item_mjollnir_custom_1;"
+		}
+	}
+	
+"item_recipe_mjollnir_custom_3"
+	{
+		"AbilityTextureName" 				"recipe"					
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_mjollnir_custom_3"
+		"ItemRequirements"
+		{
+			"01"							"item_mjollnir_custom_2;"
+		}
+	}
+
+"item_recipe_mjollnir_custom_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    	 	"item_datadriven"
+
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_mjollnir_custom_4"
+		"ItemRequirements"
+		{
+			"01"							"item_mjollnir_custom_3;"
+		}
+	}
+
+"item_recipe_mjollnir_custom_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+			
+		"ItemCost"						"10000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mjollnir_custom_5"
+		"ItemRequirements"
+		{
+			"01"						"item_mjollnir_custom_4;"
+		}
+	}
+
+"item_recipe_mjollnir_custom_6"
+	{
+		"AbilityTextureName" 				"recipe"		
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+		
+		"ItemCost"						"10000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mjollnir_custom_6"
+		"ItemRequirements"
+		{
+			"01"						"item_mjollnir_custom_5;"
+		}
+	}	
+	
+"item_recipe_mjollnir_custom_7"
+	{
+		"AbilityTextureName" 				"recipe"		
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+		
+		"ItemCost"						"25000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mjollnir_custom_7"
+		"ItemRequirements"
+		{
+			"01"						"item_mjollnir_custom_6;"
+		}
+	}	
+
+"item_recipe_mjollnir_custom_8"
+	{
+		"AbilityTextureName" 				"recipe"		
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                    		"item_datadriven"
+		
+		"ItemCost"						"40000"	
+		"ItemShopTags"					"artifacts"
+		
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mjollnir_custom_8"
+		"ItemRequirements"
+		{
+			"01"						"item_mjollnir_custom_7;"
+		}
+	}	
+	
+}	

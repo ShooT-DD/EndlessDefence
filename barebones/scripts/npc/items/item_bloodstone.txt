@@ -1,0 +1,646 @@
+"DOTAAbilities"
+{
+
+"item_bloodstone_1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"item_bloodstone"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+
+"item_bloodstone_2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+	
+"item_bloodstone_3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+
+"item_bloodstone_4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+
+"item_bloodstone_5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+	
+"item_bloodstone_6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+	
+"item_bloodstone_7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+	
+"item_bloodstone_8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_bloodstone.lua"
+			"AbilityTextureName"			"all/bloodstone_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilityManaCost"				"5000"
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "200"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 2000 5000 10000 25000 50000 100000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 2000 3000 5000 10000 20000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"3 6 12 25 50 100 200 300"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_dmg"				"16 32 64 128 256 512 1024 1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"				"5"
+			}
+		}
+	}
+	
+
+	
+	
+"item_recipe_bloodstone_1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"0"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_1"
+		"ItemRequirements"
+		{
+			"01"							"item_voodoo_mask;item_soul_booster;"
+		}
+	}	
+
+"item_recipe_bloodstone_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_2"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_1"
+		}
+	}	
+
+"item_recipe_bloodstone_3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_3"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_2"
+		}
+	}	
+	
+"item_recipe_bloodstone_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_4"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_3"
+		}
+	}	
+	
+"item_recipe_bloodstone_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_5"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_4"
+		}
+	}	
+	
+"item_recipe_bloodstone_6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_6"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_5"
+		}
+	}	
+	
+"item_recipe_bloodstone_7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_7"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_6"
+		}
+	}	
+	
+"item_recipe_bloodstone_8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_bloodstone_8"
+		"ItemRequirements"
+		{
+			"01"							"item_bloodstone_7"
+		}
+	}	
+		
+}

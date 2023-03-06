@@ -1,0 +1,497 @@
+"DOTAAbilities"
+{
+"item_kaya_1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"1"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"2000"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}
+	
+"item_recipe_kaya_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_2"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_1;"
+		}
+	}
+	
+
+"item_kaya_2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"2"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}	
+	
+"item_recipe_kaya_3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_3"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_2;"
+		}
+	}
+	
+
+"item_kaya_3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"3"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}
+
+	
+"item_recipe_kaya_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_4"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_3;"
+		}
+	}
+	
+
+"item_kaya_4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"4"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}	
+
+"item_recipe_kaya_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_5"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_4;"
+		}
+	}
+	
+
+"item_kaya_5"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"5"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}		
+
+"item_recipe_kaya_6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_6"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_5;"
+		}
+	}
+	
+
+"item_kaya_6"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"6"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}
+	
+"item_recipe_kaya_7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_7"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_6;"
+		}
+	}
+	
+
+"item_kaya_7"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"7"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}
+
+"item_recipe_kaya_8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_kaya_8"
+		"ItemRequirements"
+		{
+			"01"							"item_kaya_7;"
+		}
+	}
+	
+
+"item_kaya_8"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_kaya_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"8"
+		"AbilityTextureName"	        "item_kaya"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_intellect"			"32 64 125 250 500 1000 2000 5000"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_amp"					"16 32 64 128 256 512 1024 1512"
+				"CalculateSpellDamageTooltip"	"0"
+			}		
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen_multiplier"		"24 48 72 96 120 144 168 189"
+				"CalculateSpellDamageTooltip"	"0"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spell_lifesteal_amp"		"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}	
+		}
+	}
+}

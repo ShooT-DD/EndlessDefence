@@ -1,0 +1,595 @@
+"DOTAAbilities"
+{
+
+"item_octarine_core1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"item_octarine_core"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+
+"item_octarine_core2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_octarine_core3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_octarine_core4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_octarine_core5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_octarine_core6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_octarine_core7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+			
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_octarine_core8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_octarine_core.lua"
+			"AbilityTextureName"			"all/octarin_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+			
+			
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"170"
+
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_cooldown"		"25 27 29 31 33 35 37 41"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_bonus"			"250"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana"			"500 1000 1500 3000 5000 7000 10000 15000"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mana_regen"		"3 6 12 24 48 96 192 396"
+			}
+		}
+	}
+	
+	
+"item_recipe_octarine_core1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"0"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core1"
+		"ItemRequirements"
+		{
+			"01"							"item_aether_lens;item_soul_booster;"
+		}
+	}	
+
+"item_recipe_octarine_core2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core2"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core1;"
+		}
+	}	
+
+"item_recipe_octarine_core3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core3"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core2;"
+		}
+	}	
+
+"item_recipe_octarine_core4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core4"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core3;"
+		}
+	}	
+
+"item_recipe_octarine_core5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core5"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core4;"
+		}
+	}	
+
+"item_recipe_octarine_core6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core6"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core5;"
+		}
+	}	
+
+"item_recipe_octarine_core7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core7"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core6;"
+		}
+	}	
+
+"item_recipe_octarine_core8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_octarine_core8"
+		"ItemRequirements"
+		{
+			"01"							"item_octarine_core7;"
+		}
+	}	
+
+
+}

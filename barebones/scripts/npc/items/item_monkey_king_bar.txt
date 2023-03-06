@@ -1,0 +1,482 @@
+"DOTAAbilities"
+{
+
+//==================================================================================================================================================================
+//==================================================================================================================================================================
+
+"item_monkey_king_bar1"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"ItemBaseLevel"					"1"
+		"AbilityTextureName"	        "item_monkey_king_bar"
+		
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+           
+		}
+			
+	}
+	
+"item_recipe_monkey_king_bar1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"675"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar1"
+		"ItemRequirements"
+		{
+			"01"							"item_javelin;item_demon_edge;"
+		}
+	}
+
+	
+"item_recipe_monkey_king_bar2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar2"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar1;"
+		}
+	}
+	
+
+"item_monkey_king_bar2"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"2"
+		"AbilityTextureName"	        "all/MKB_2"
+		
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}	
+	
+"item_recipe_monkey_king_bar3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar3"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar2;"
+		}
+	}
+	
+
+"item_monkey_king_bar3"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"3"
+		"AbilityTextureName"	        "all/MKB_3"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}
+
+	
+"item_recipe_monkey_king_bar4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar4"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar3;"
+		}
+	}
+	
+
+"item_monkey_king_bar4"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"4"
+		"AbilityTextureName"	        "all/MKB_4"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}	
+
+"item_recipe_monkey_king_bar5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar5"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar4;"
+		}
+	}
+	
+
+"item_monkey_king_bar5"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"5"
+		"AbilityTextureName"	        "all/MKB_5"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}		
+
+"item_recipe_monkey_king_bar6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar6"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar5;"
+		}
+	}
+	
+
+"item_monkey_king_bar6"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"6"
+		"AbilityTextureName"	        "all/MKB_6"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}
+	
+"item_recipe_monkey_king_bar7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar7"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar6;"
+		}
+	}
+	
+
+"item_monkey_king_bar7"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"7"
+		"AbilityTextureName"	        "all/MKB_7"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}	
+	
+"item_recipe_monkey_king_bar8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_monkey_king_bar8"
+		"ItemRequirements"
+		{
+			"01"							"item_monkey_king_bar7;"
+		}
+	}
+	
+
+"item_monkey_king_bar8"
+	{
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"items/item_monkey_king_bar_lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"ItemBaseLevel"					"8"
+		"AbilityTextureName"	        "all/MKB_2"
+
+		"ItemCost"						"9500"
+		"ItemStackable"					"0"
+		
+		"ItemPermanent"					"0"
+		"ItemKillable"                  "1"
+		"ItemSellable"                  "1"
+		"ItemDroppable"                 "1"
+		"ItemPurchasable"				"1"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"42 130 400 1200 3400 6800 14000 28000"  
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_attack_speed"	"35 70 105 140 175 210 245 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_chance_damage"	"5000 10000 15000 20000 25000 30000 35000 40000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chance"	"10"
+			}
+		}
+	}	
+}

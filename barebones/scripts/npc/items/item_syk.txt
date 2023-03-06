@@ -1,0 +1,116 @@
+"DOTAAbilities"
+{
+
+	"item_syk"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_syk.lua"
+			"AbilityTextureName"			"all/Sashakayasha"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"int"					"15000"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"agi"					"15000"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"str"					"15000"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"spell_lifesteal_amp"	"3"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_mage_dmg"		"3000"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen_pct"		"500"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"move_speed"			"300"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"resistance"			"50"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"agi_dmg"				"2"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"str_armor"				"0.1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"int_mag_dmg"			"0.2"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+		}
+	}
+	
+	"item_recipe_syk"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"0"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_syk"
+		"ItemRequirements"
+		{
+			"01"							"item_sange_8;item_yasha_8;item_kaya_8;item_corrupred_orb5"
+		}
+	}	
+
+
+}

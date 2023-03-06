@@ -1,0 +1,2346 @@
+"DOTAAbilities"
+{
+		"item_all_1_vampir"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/1_vampir"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_001.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5"
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+			"ItemPurchasable" "0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"life_steal"			"10"
+			}
+		}			
+    }
+	
+	
+		"item_all_2_crit"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/2_crit"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_001.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5"
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"			"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_multiplier"		"400"
+			}
+		}
+    }
+	
+		"item_all_3_bfury"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/3_bfury"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_001.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5"
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_damage_percent" "50"
+            }                   
+            "02"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "cleave_distance"           "500"
+            }
+			"03"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "max_targets"           "1"
+            }
+		}
+    }
+	
+		"item_all_4_sabre"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/4_sabre"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_001.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5"
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+    }
+	
+		"item_all_5_agi"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/5_agi"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_001.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "agi_proc"				"10"
+            }                   
+		}
+    }
+	
+		"item_all_6_str"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/6_str"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_001.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "str_proc"				"10"
+            }                   
+		}
+    }
+	
+		"item_all_7_int"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/7_int"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_002.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "int_proc"				"10"
+            }                   
+		}
+    }
+	
+		"item_all_8_all_stats"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/8_all_stats"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_002.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "agi_proc_all"				"5"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "str_proc_all"				"5"
+            }
+			"03"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "int_proc_all"				"5"
+            }
+		}
+    }
+	
+		"item_all_9_bsa"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/9_bsa"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_002.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "bsa"					"1.3"
+            }
+		}
+    }
+	
+		"item_all_10_heal"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/10_heal"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_002.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "max_heals"				"10"
+            }
+		}
+    }
+	
+		"item_all_11_all_damage"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/11_all_damage"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_002.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "all_damage"				"10"
+            }
+		}
+    }
+	
+		"item_all_12_gold"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/12_gold"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_002.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gold_give"				"20"
+			}
+			
+		}
+    }
+	
+		"item_all_13_armor_self"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/13_armor_self"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_003.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "armor_self"			"10"
+            }
+		}
+    }
+	
+		"item_all_14_armor_aura_minus"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/14_armor_aura_minus"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_003.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5"
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "aura_radius"			"800"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "aura_armor_munus"		"50"
+            }
+		}
+    }
+	
+		"item_all_15_desolator"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/15_desolator"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_003.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "duration_desolator"	"5"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "armor_munus_desolator"	"50"
+            }
+		}
+    }
+	
+		"item_all_16_kaya"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/16_kaya"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_003.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "mag_damage_int"		"0.2"
+            }
+		}
+    }
+	
+		"item_all_17_hp_str"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/17_hp_str"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_003.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "hp_str"				"10"
+            }
+		}
+    }
+	
+		"item_all_18_evasion"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/18_evasion"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_003.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "evasion"				"30"
+            }
+		}
+    }
+	
+		"item_all_19_shiva"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/19_shiva"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_004.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "slow_attack"			"-30"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "slow_duration"			"3"
+            }
+		}
+    }
+	
+		"item_all_20_cooldown"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/20_cooldown"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_004.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "cooldown"				"30"
+            }
+		}
+    }
+	
+		"item_all_21_radius_damage"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/21_radius_damage"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_004.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "damage_radius"			"200"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "damage_chance"			"10"
+            }
+		}
+    }
+	
+		"item_all_22_stats_in_str"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/22_stats_in_str"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_004.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "base_str"				"50"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "level_str"				"1"
+            }
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"pct_health_as_bonus_dmg"			"4"
+			}
+		}
+    }
+	
+		"item_all_23_stats_in_int"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/23_stats_in_int"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_004.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "base_int"				"50"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "level_int"				"1"
+            }
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aoe_radius_increase"	"50"
+			}
+		}
+    }
+	
+		"item_all_24_stats_in_agi"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/24_stats_in_agi"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_004.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "base_agi"				"50"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "level_agi"				"1"
+            }
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"extra_attack_chance"		"10"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"attack_delay"				"0.2"
+			}
+		}
+    }
+	
+		"item_all_25_healer"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/25_healer"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_005.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"bonus_heal"		"100"
+			}
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"percent_heal"		"1"
+			}
+		}
+    }
+	
+		"item_all_26_armor_agi"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/26_armor_agi"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_005.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_FLOAT"
+                "armor_agi"				"0.2"
+            }
+			"02"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "damage_agi"			"3"
+            }
+		}
+    }
+	
+		"item_all_27_essence_attack"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/27_essence_attack"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_005.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+            {
+                "var_type"              "FIELD_INTEGER"
+                "essence_attack_damage"				"4"
+            }
+
+		}
+    }
+	
+		"item_all_28_aeon_disk"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/28_aeon_disk"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_005.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"health_threshold_pct"	"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"buff_duration"			"3"
+			}
+
+		}
+    }
+	
+		"item_all_29_killer"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/29_killer"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_005.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chance"			"5"
+			}
+
+		}
+    }
+	
+		"item_all_30_ignore_armor"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"random_skills/30_ignore_armor"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/props_gameplay/moon_shard/moon_shard_005.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemPurchasable" "0"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chance"	"15"
+			}
+
+		}
+    }
+	
+	
+		"item_recipe_all_random_skills_1"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_1"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_1_vampir;"
+		}
+	}
+	
+		"item_recipe_all_random_skills_2"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_2"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_2_crit;"
+		}
+	}	
+	
+			"item_recipe_all_random_skills_3"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_3"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_3_bfury;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_4"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_4"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_4_sabre;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_5"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_5"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_5_agi;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_6"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_6"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_6_str;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_7"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_7"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_7_int;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_8"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_8"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_8_all_stats;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_9"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_9"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_9_bsa;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_10"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_10"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_10_heal;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_11"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_11"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_11_all_damage;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_12"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_12"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_12_gold;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_13"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_13"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_13_armor_self;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_14"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_14"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_14_armor_aura_minus;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_15"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_15"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_15_desolator;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_16"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_16"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_16_kaya;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_17"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_17"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_17_hp_str;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_18"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_18"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_18_evasion;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_19"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_19"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_19_shiva;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_20"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_20"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_20_cooldown;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_21"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_21"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_21_radius_damage;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_22"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_22"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_22_stats_in_str;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_23"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_23"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_23_stats_in_int;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_24"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_24"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_24_stats_in_agi;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_25"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_25"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_25_healer;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_26"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_26"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_26_armor_agi;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_27"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_27"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_27_essence_attack;"
+		}
+	}
+	
+				"item_recipe_all_random_skills_28"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_28"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_28_aeon_disk;"
+		}
+	}
+	
+					"item_recipe_all_random_skills_29"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_29"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_29_killer;"
+		}
+	}
+	
+					"item_recipe_all_random_skills_30"
+	{
+		
+													
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		"AbilityTextureName" 				"quest/item_quest_line_book"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_all_random_skills_30"
+		"ItemRequirements"
+		{
+			"01"			"item_corrupred_orb5;item_all_30_ignore_armor;"
+		}
+	}
+		"item_all_random_skills_1"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+			"item_all_random_skills_2"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+			
+    }
+			"item_all_random_skills_3"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_4"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_5"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_6"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_7"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_8"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_9"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_10"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_11"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_12"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_13"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_14"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_15"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_16"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_17"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_18"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_19"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_20"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_21"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_22"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_23"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_24"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_25"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_26"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_27"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_28"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_29"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+				"item_all_random_skills_30"
+    {
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+        "BaseClass"                      "item_lua"
+        "AbilityTextureName"			"quest/item_quest_line_book"
+        "ScriptFile"                    "items/item_skills.lua"
+			"Model"								"models/items/courier/bookwyrm/bookwyrm.vmdl"
+			"AbilityCastRange"				"0"
+			"AbilityCastPoint"				"0.0"
+			"AbilityCooldown"				"5" 
+			"AbilitySharedCooldown"			"randomskills"
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+			"ItemCost"						"1000000"
+    }
+
+	
+}

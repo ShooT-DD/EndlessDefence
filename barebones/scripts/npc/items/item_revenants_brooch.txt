@@ -1,0 +1,788 @@
+"DOTAAbilities"
+{
+
+"item_revenants_brooch_1"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_1"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"1"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_2"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"2"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_3"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_3"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"3"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_4"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_4"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"4"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_5"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_5"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"5"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_6"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_6"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"6"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_7"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_7"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"7"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+	
+"item_revenants_brooch_8"
+	{
+			
+			"BaseClass"						"item_lua"
+			"ScriptFile"					"items/item_revenants_brooch.lua"
+			"AbilityTextureName"			"all/revenants_brooch_2"
+			"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+			"AbilityCastRange" 				"600"
+			
+			// Item Info
+			//-------------------------------------------------------------------------------------------------------------
+			"ItemBaseLevel"					"8"
+			"ItemStackable"					"0"
+		
+			"ItemPermanent"					"0"
+			"ItemKillable"                  "1"
+			"ItemSellable"                  "1"
+			"ItemDroppable"                 "1"
+
+			// Casting
+			//--------------------------------------------
+			"AbilityCooldown"               "3"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeMelee"		"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"AttackRangeDalnik"		"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"				"1 2 3 4 5 6 7 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_damage"			"1 2 3 4 5 6 7 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_health"			"4 8 12 16 20 25 30 40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"up_chaos"				"5 10 15 20 25 30 35 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage"				"0.5"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"procent_brooch_damage_interval"				"1"
+				"CalculateSpellDamageTooltip"	"0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"minHP"				"50"
+			}
+		}
+	}
+
+	
+"item_recipe_revenants_brooch_1"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"0"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_1"
+		"ItemRequirements"
+		{
+			"01"							"item_demon_edge;item_relic;item_ultimate_orb;"
+		}
+	}	
+
+"item_recipe_revenants_brooch_2"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_2"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_1;"
+		}
+	}	
+
+"item_recipe_revenants_brooch_3"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_3"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_2;"
+		}
+	}	
+	
+"item_recipe_revenants_brooch_4"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"5000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_4"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_3;"
+		}
+	}	
+
+"item_recipe_revenants_brooch_5"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_5"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_4;"
+		}
+	}	
+	
+"item_recipe_revenants_brooch_6"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"10000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_6"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_5;"
+		}
+	}	
+	
+"item_recipe_revenants_brooch_7"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"25000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_7"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_6;"
+		}
+	}	
+
+"item_recipe_revenants_brooch_8"
+	{
+		"AbilityTextureName" 				"recipe"				
+		"Model"								"models/props_gameplay/recipe.vmdl"
+		"BaseClass"                     	"item_datadriven"
+		
+		"ItemCost"							"40000"	
+		"ItemShopTags"						"artifacts"
+		
+		"ItemRecipe"						"1"
+		"ItemResult"						"item_revenants_brooch_8"
+		"ItemRequirements"
+		{
+			"01"							"item_revenants_brooch_7;"
+		}
+	}	
+}
